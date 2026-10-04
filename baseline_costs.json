@@ -1,0 +1,16 @@
+{
+  "baseline_total_cost": 5046.486981813081,
+  "baseline_total_renewable_dispatch": 21703.132160580368,
+  "baseline_total_grid_dispatch": 26168.299970946726,
+  "baseline_total_served_load": 47871.43213152709,
+  "baseline_total_shifted_load": 1879.1409927885575,
+  "baseline_total_shed_load": 1.2079226507921703e-13,
+  "baseline_total_original_load": 49750.573124315655,
+  "baseline_total_effective_load": 47871.43213152709,
+  "baseline_total_carbon": 11775.734986926029,
+  "baseline_total_unserved_after_shedding": 0.0,
+  "baseline_RUR": 0.4533629180123724,
+  "baseline_GDR": 0.5466370819876276,
+  "baseline_service_ratio": 1.0,
+  "baseline_avg_cost_per_served_unit": 0.10541750595528086
+}

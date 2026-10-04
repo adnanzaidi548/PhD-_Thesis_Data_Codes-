@@ -1,0 +1,54 @@
+{
+  "load_t": {
+    "description": "System demand/load at time t",
+    "unit": "kWh"
+  },
+  "renewable_available_t": {
+    "description": "Available renewable generation at time t",
+    "unit": "kWh"
+  },
+  "grid_cap_t": {
+    "description": "Maximum allowable grid import at time t",
+    "unit": "kWh"
+  },
+  "grid_price_t": {
+    "description": "Grid electricity price at time t",
+    "unit": "currency_per_kWh"
+  },
+  "production_proxy_t": {
+    "description": "Proxy for industrial production level",
+    "unit": "normalized"
+  },
+  "temperature_t": {
+    "description": "Ambient temperature",
+    "unit": "degC"
+  },
+  "tariff_t": {
+    "description": "Tariff signal",
+    "unit": "currency_per_kWh"
+  },
+  "hour": {
+    "description": "Hour of day",
+    "unit": "index"
+  },
+  "weekday": {
+    "description": "Day of week",
+    "unit": "index"
+  },
+  "month": {
+    "description": "Month of year",
+    "unit": "index"
+  },
+  "day_of_year": {
+    "description": "Day of year",
+    "unit": "index"
+  },
+  "is_weekend": {
+    "description": "Weekend indicator",
+    "unit": "binary"
+  },
+  "context_index_t": {
+    "description": "Sequential time-step index",
+    "unit": "index"
+  }
+}

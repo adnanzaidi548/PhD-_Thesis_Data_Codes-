@@ -1,0 +1,32 @@
+{
+  "state_equation": "s_t_plus_1 = f(s_t, u_t, omega_t)",
+  "current_state_fields": [
+    "load_t",
+    "renewable_available_t",
+    "grid_cap_t",
+    "grid_price_t",
+    "production_proxy_t",
+    "temperature_t",
+    "hour",
+    "weekday",
+    "month"
+  ],
+  "action_fields": [
+    "u_ren",
+    "u_grid",
+    "u_shed",
+    "u_shift"
+  ],
+  "disturbance_fields": [
+    "load_error",
+    "renewable_error",
+    "price_error",
+    "weather_error"
+  ],
+  "next_state_fields": [
+    "next_load_estimate",
+    "next_renewable_estimate",
+    "next_grid_price_estimate"
+  ],
+  "notes": "This is a structural template for RL and simulation notebooks."
+}

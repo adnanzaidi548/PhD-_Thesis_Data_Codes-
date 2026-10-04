@@ -1,0 +1,64 @@
+{
+  "main_weights": {
+    "cost": 1.0,
+    "carbon": 0.25,
+    "renewable_reward": 0.05,
+    "shift_penalty": 2.0,
+    "shed_penalty": 20.0,
+    "unserved_penalty": 1000.0
+  },
+  "optimal_objectives": {
+    "J_total": 26.223613401405085,
+    "J_cost": 0.6463520301767438,
+    "J_carbon": 5.144494050113643,
+    "J_shift_penalty": 26.40728574,
+    "J_shed_penalty": 0.0,
+    "J_unserved_penalty": 0.0,
+    "renewable_reward_term": -2.1161478813000003,
+    "solver_status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+  },
+  "optimal_metrics": {
+    "total_cost": 0.6463520301767438,
+    "total_carbon": 5.144494050113643,
+    "renewable_utilization_ratio": 0.6416219892341108,
+    "grid_dependency_ratio": 0.05036087248876137,
+    "service_ratio": 0.7741857815347432,
+    "avg_shift": 0.026946209938775507,
+    "avg_shed": 0.0,
+    "total_shifted_energy": 13.20364287,
+    "total_shed_energy": 0.0,
+    "total_unserved_energy": 0.0,
+    "total_served_energy": 45.267621516000005,
+    "balance_error": 5.551115123125783e-17
+  },
+  "baseline_metrics": {
+    "total_cost": 1.673604041469023,
+    "total_carbon": 44.04629899336769,
+    "renewable_utilization_ratio": 0.0073690925685480375,
+    "grid_dependency_ratio": 0.13513918859891152,
+    "service_ratio": 1.0,
+    "avg_shift": 0.1022110648349555,
+    "avg_shed": 3.9092523555074394e-19,
+    "total_unserved_energy": 9.731798700229888e-16,
+    "balance_error": 1.680947048221526e-15
+  },
+  "resolved_forecast_dir": "/content/drive/MyDrive/Processed Datasets Bundles/03_neo_forecast_outputs",
+  "resolved_system_model_dir": "/content/shared_notebook_outputs/notebook4_outputs",
+  "resolved_baseline_dir": "/content/shared_notebook_outputs/notebook5_outputs",
+  "notebook3_shared_link": "",
+  "notebook4_shared_link": "https://drive.google.com/drive/folders/1MWhdiZ_bwUWRbwblXeC_AyZ2_PhfzAXs?usp=drive_link",
+  "notebook5_shared_link": "https://drive.google.com/drive/folders/1EDA2iQHhsuWAAiEydiexWh3eEdLRefmu?usp=drive_link",
+  "optimization_df_summary": {
+    "rows": 490,
+    "load_min": 0.014367816,
+    "load_max": 0.8045977,
+    "ren_min": 0.10922411,
+    "ren_max": 0.2672438,
+    "grid_cap_min": 0.88505747,
+    "grid_cap_max": 0.88505747,
+    "shift_limit_min": 15.071609881531543,
+    "shift_limit_max": 44.97997261183255,
+    "shed_limit_min": 0.0,
+    "shed_limit_max": 7.840471596409771e-15
+  }
+}

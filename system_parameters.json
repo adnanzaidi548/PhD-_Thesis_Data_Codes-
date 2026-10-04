@@ -1,0 +1,21 @@
+{
+  "E_grid_max": 175.4169210288331,
+  "renewable_conversion_efficiency": 1.0,
+  "eta_p": 0.9,
+  "Q_min_fraction": 0.2,
+  "Q_min": 0.2,
+  "delta_u_max": 25.0,
+  "max_shift_fraction": 0.3,
+  "max_shed_fraction": 0.2,
+  "grid_carbon_intensity": 0.45,
+  "alpha": 1.0,
+  "beta": 1.0,
+  "gamma": 1.0,
+  "delta": 1.0,
+  "w1_energy": 1.0,
+  "w2_cost": 1.0,
+  "w3_carbon": 1.0,
+  "w4_stability": 0.5,
+  "w5_renewable": 1.0,
+  "w6_productivity": 1.0
+}

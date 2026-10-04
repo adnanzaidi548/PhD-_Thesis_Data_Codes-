@@ -1,0 +1,21 @@
+{
+  "objective_form": "minimize",
+  "equation_name": "multi_objective_energy_system_function",
+  "components": {
+    "J_energy": 49750.573124315655,
+    "J_cost": 5523.160909797281,
+    "J_carbon": 12562.711904395408,
+    "J_stability": 1605986.360384419,
+    "J_renewable": 21833.435558992533,
+    "J_productivity": 44775.51581188409
+  },
+  "weights": {
+    "w1_energy": 1.0,
+    "w2_cost": 1.0,
+    "w3_carbon": 1.0,
+    "w4_stability": 0.5,
+    "w5_renewable": 1.0,
+    "w6_productivity": 1.0
+  },
+  "J_total_baseline": 804220.6747598413
+}

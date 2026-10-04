@@ -1,0 +1,33 @@
+{
+  "notebook6_shared_link": "https://drive.google.com/drive/folders/10LjSy5EW4rInAgrqyByUpR_R0zW_JR_E?usp=drive_link",
+  "uncertainty_config": {
+    "load_pct": 0.1,
+    "renewable_pct": 0.2,
+    "price_pct": 0.08,
+    "grid_cap_pct": 0.05,
+    "num_scenarios": 25,
+    "random_seed": 42
+  },
+  "robust_weights": {
+    "cost": 1.0,
+    "carbon": 0.3,
+    "renewable_reward": 0.05,
+    "shift_penalty": 2.5,
+    "shed_penalty": 25.0,
+    "unserved_penalty": 1500.0
+  },
+  "robust_summary": {
+    "mean_total_cost": 0.6753879695654268,
+    "worst_total_cost": 0.7466183318652837,
+    "best_total_cost": 0.5574670936303873,
+    "mean_total_carbon": 5.570386181061682,
+    "worst_total_carbon": 6.6638439928704525,
+    "mean_service_ratio": 0.7679620755555238,
+    "worst_service_ratio": 0.7570701820020204,
+    "mean_renewable_utilization_ratio": 0.6344153273645539,
+    "worst_total_unserved_energy": 0.0,
+    "max_balance_error": 3.3306690738754696e-16
+  },
+  "representative_scenario_id": 7,
+  "resolved_notebook6_input_dir": "/content/shared_notebook_outputs/notebook6_outputs"
+}

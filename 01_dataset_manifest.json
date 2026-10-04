@@ -1,0 +1,18 @@
+{
+  "dataset_name": "UCI Individual Household Electric Power Consumption",
+  "source_page": "https://archive.ics.uci.edu/dataset/235/individual+household+electric+power+consumption",
+  "download_url": "https://archive.ics.uci.edu/static/public/235/individual+household+electric+power+consumption.zip",
+  "downloaded_file": "/content/drive/MyDrive/PhD_Thesis_Datasets/01_uci_household_power/raw/individual+household+electric+power+consumption.zip",
+  "extracted_dir": "/content/drive/MyDrive/PhD_Thesis_Datasets/01_uci_household_power/extracted",
+  "all_files": [
+    "/content/drive/MyDrive/PhD_Thesis_Datasets/01_uci_household_power/extracted/household_power_consumption.txt"
+  ],
+  "usable_files": [
+    "/content/drive/MyDrive/PhD_Thesis_Datasets/01_uci_household_power/extracted/household_power_consumption.txt"
+  ],
+  "used_in_next_notebooks": [
+    "Notebook 1: Data Preprocessing",
+    "Notebook 2: Baseline Models",
+    "Notebook 3: NEO-Forecast (early testing)"
+  ]
+}

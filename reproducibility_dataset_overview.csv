@@ -1,0 +1,4 @@
+artifact,rows,columns,numeric_columns,notes
+full_system_simulation_table,4,15,13,Integrated system-level simulation output from Notebook 11
+full_system_action_summary,4,3,3,Action distribution summary
+full_system_latency_summary,4,9,8,Latency summary output

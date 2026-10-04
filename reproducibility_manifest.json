@@ -1,0 +1,27 @@
+{
+  "package_name": "12_reproducibility_package_outputs",
+  "package_purpose": "Final reproducibility bundle for thesis and archival reuse",
+  "source_notebook": "12_reproducibility_package.ipynb",
+  "input_folder_used": "/content/drive/MyDrive/11_full_system_simulation_outputs",
+  "input_zip_used": "/content/drive/MyDrive/11_full_system_simulation_outputs.zip",
+  "generated_files": [
+    "full_system_simulation_table.csv",
+    "full_system_action_summary.csv",
+    "full_system_latency_summary.csv",
+    "full_system_kpis.json",
+    "reproducibility_inventory.csv",
+    "reproducibility_dataset_overview.csv",
+    "reproducibility_metrics_summary.csv"
+  ],
+  "record_counts": {
+    "simulation_rows": 4,
+    "action_summary_rows": 4,
+    "latency_summary_rows": 4,
+    "inventory_rows": 4,
+    "metrics_rows": 107
+  },
+  "notes": [
+    "If Notebook 11 folder existed, its ZIP was created automatically.",
+    "Package built to support reproducibility, thesis appendix, and archival storage."
+  ]
+}

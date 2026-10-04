@@ -1,0 +1,31 @@
+{
+  "notebook_name": "04_system_modeling.ipynb",
+  "time_resolution_hours": 1,
+  "state_vector": [
+    "L_t",
+    "R_t",
+    "G_t",
+    "P_t",
+    "W_t",
+    "C_t",
+    "X_t"
+  ],
+  "action_vector": [
+    "u_ren",
+    "u_grid",
+    "u_shed",
+    "u_shift"
+  ],
+  "core_scope": "renewable_aware_industrial_energy_system_with_grid_interaction",
+  "storage_active": false,
+  "output_files": [
+    "system_model_config.json",
+    "constraints.pkl",
+    "state_variables.json",
+    "system_parameters.json",
+    "objective_definition.json",
+    "transition_template.json",
+    "metrics_summary.json",
+    "system_timeseries.csv"
+  ]
+}
